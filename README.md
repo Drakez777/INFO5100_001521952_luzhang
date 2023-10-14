@@ -1,3 +1,0 @@
-# INFO5100_001521952_luzhang
-exercise0
-exercise1
