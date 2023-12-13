@@ -1,4 +1,6 @@
-public class Triangle extends Shape {
+import java.io.Serializable;
+
+public class Triangle extends Shape implements Serializable{
 
     // Side lengths of the triangle
     private double sideA;
@@ -6,6 +8,10 @@ public class Triangle extends Shape {
     private double sideC;
 
     // Constructor
+    public Triangle(){
+        super("Red");
+    }
+
     public Triangle(String color, double sideA, double sideB, double sideC) {
         super(color);
         this.sideA = sideA;

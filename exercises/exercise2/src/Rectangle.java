@@ -5,6 +5,11 @@ public class Rectangle extends Shape{
     private double width;
 
     // Constructor
+    public Rectangle(){
+        super("Blue");
+    }
+
+
     public Rectangle(String color, double length, double width) {
         super(color);
         this.length = length;

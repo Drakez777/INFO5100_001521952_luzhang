@@ -2,6 +2,10 @@ public class Square extends Shape{
 
     private double side;
 
+    public Square(){
+        super("Yellow");
+    }
+
     public Square(String color, double side) {
         super(color);
         this.side = side;

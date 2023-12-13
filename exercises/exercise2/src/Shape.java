@@ -1,5 +1,7 @@
-abstract class Shape {
-    static String color;
+import java.io.Serializable;
+
+abstract class Shape implements Serializable{
+    String color;
 
     public Shape(String color) {
         this.color = color;
@@ -11,7 +13,7 @@ abstract class Shape {
     abstract double calculatePerimeter();
 
     // Static method to get the color of the shape
-    static String getColor() {
+    String getColor() {
         return color;
     }
 }
